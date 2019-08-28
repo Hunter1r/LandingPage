@@ -67,7 +67,6 @@
 }
 .about-product {
     width: 100%;
-    border: 2px solid black;
     background-image: url(../img/bg.png);
 }
 .about-product:after {
