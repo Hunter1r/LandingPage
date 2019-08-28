@@ -136,7 +136,7 @@
     width: 300px;
     background-color: #445162;
     border-radius: 5px;
-    outline: 2px solid #445162;
+    /*outline: 2px solid #445162;*/
     color: white;
     margin: 0 20px 0 20px;
 }
@@ -164,13 +164,15 @@
 }
 .buy-box-price {
     display: block;
-    width: 100%;
+    width: 98%;
     background-color: white;
     color: #445162;
     text-align: center;
     padding: 18px;
     font-size: 35px;
     box-sizing: border-box;
+    outline: 1px solid #445162; 
+    margin: 0 auto;
 }
 
 .buy-box-list {
@@ -194,6 +196,7 @@
     font-weight: 700;
     line-height: 18px;
     margin: 0px auto 20px auto;
+    outline: none;
 }
 .buy-box-btn:hover {
     background-color:burlywood;
