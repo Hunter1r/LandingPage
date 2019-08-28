@@ -114,17 +114,90 @@
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
-    border: 2px solid black;
+    outline: 2px solid black;
     background-image: url(../img/bg-buy-it.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .buy-title {
+    width: 100%;
     display: block;
+    margin: 0 0 30px 0;
     text-align: center;
     color: #445161;
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-    margin: 0 0 30px 0;
+}
+.buy-box {
+    width: 300px;
+    background-color: #445162;
+    border-radius: 5px;
+    outline: 2px solid #445162;
+    color: white;
+    margin: 0 20px 0 20px;
+}
+.buy-box:nth-child(2) {
+    margin-left: 0;
+}
+.buy-box:nth-child(4) {
+    margin-right: 0;
+}
 
+
+.buy-box-caption {
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 17px;
+    box-sizing: border-box;
+}
+.buy-box-caption:first-letter {
+    text-transform: uppercase;
+}
+.buy-box-price {
+    display: block;
+    width: 100%;
+    background-color: white;
+    color: #445162;
+    text-align: center;
+    padding: 18px;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+
+.buy-box-list {
+    margin: 0px;
+    padding: 20px;
+    list-style-position: inside;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.buy-box-btn {
+    display: block;
+    width: 260px;
+    background-color: white;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    color: #445161;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0px auto 20px auto;
+}
+.buy-box-btn:hover {
+    background-color:burlywood;
+}
+.buy-box-btn:active {
+    color: white;
 }
