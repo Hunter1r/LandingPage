@@ -51,7 +51,7 @@
     /*display: block;*/
     position: absolute;
     top: 8px;
-    left:0px;
+    left: 0px;
     width: 25px;
     height: 19px;
     background-image: url(../img/check_icon.png);
@@ -65,22 +65,26 @@
     background-image: url(img/header-shape.jpg);
     float: right;
 }
+
 .about-product {
     width: 100%;
-    border: 2px solid black;
     background-image: url(../img/bg.png);
+    padding: 50px;
+    box-sizing: border-box;
 }
+
 .about-product:after {
     content: "";
     display: block;
     width: 100px;
     clear: both;
 }
+
 .about-product-wrapper {
-    padding: 50px;
     width: 649px;
     float: left;
 }
+
 .about-product-wrapper h2 {
     margin: 0 0 30px 0;
     color: #445161;
@@ -88,6 +92,7 @@
     font-weight: 400;
     line-height: 36px;
 }
+
 .about-product-wrapper p {
     text-align: justify;
     color: #445161;
@@ -100,8 +105,99 @@
     width: 430px;
     height: 245px;
     float: right;
-    position: relative;
-    top: 50px;
-    right: 50px;
-        
+}
+
+.buy {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    outline: 2px solid black;
+    background-image: url(../img/bg-buy-it.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.buy-title {
+    width: 100%;
+    display: block;
+    margin: 0 0 30px 0;
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.buy-box {
+    width: 300px;
+    background-color: #445162;
+    border-radius: 5px;
+    /*outline: 2px solid #445162;*/
+    color: white;
+    margin: 0 20px 0 20px;
+}
+.buy-box:nth-child(2) {
+    margin-left: 0;
+}
+.buy-box:nth-child(4) {
+    margin-right: 0;
+}
+
+
+.buy-box-caption {
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 17px;
+    box-sizing: border-box;
+}
+.buy-box-caption:first-letter {
+    text-transform: uppercase;
+}
+.buy-box-price {
+    display: block;
+    width: 98%;
+    background-color: white;
+    color: #445162;
+    text-align: center;
+    padding: 18px;
+    font-size: 35px;
+    box-sizing: border-box;
+    outline: 1px solid #445162; 
+    margin: 0 auto;
+}
+
+.buy-box-list {
+    margin: 0px;
+    padding: 20px;
+    list-style-position: inside;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.buy-box-btn {
+    display: block;
+    width: 260px;
+    background-color: white;
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    color: #445161;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 0px auto 20px auto;
+    outline: none;
+}
+.buy-box-btn:hover {
+    background-color:burlywood;
+}
+.buy-box-btn:active {
+    color: white;
 }
