@@ -51,7 +51,7 @@
     /*display: block;*/
     position: absolute;
     top: 8px;
-    left:0px;
+    left: 0px;
     width: 25px;
     height: 19px;
     background-image: url(../img/check_icon.png);
@@ -65,21 +65,25 @@
     background-image: url(img/header-shape.jpg);
     float: right;
 }
+
 .about-product {
     width: 100%;
     background-image: url(../img/bg.png);
 }
+
 .about-product:after {
     content: "";
     display: block;
     width: 100px;
     clear: both;
 }
+
 .about-product-wrapper {
     padding: 50px;
     width: 649px;
     float: left;
 }
+
 .about-product-wrapper h2 {
     margin: 0 0 30px 0;
     color: #445161;
@@ -87,6 +91,7 @@
     font-weight: 400;
     line-height: 36px;
 }
+
 .about-product-wrapper p {
     text-align: justify;
     color: #445161;
@@ -102,5 +107,24 @@
     position: relative;
     top: 50px;
     right: 50px;
-        
+
+}
+
+.buy {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-image: url(../img/bg-buy-it.png);
+}
+
+.buy-title {
+    display: block;
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 0 0 30px 0;
+
 }
