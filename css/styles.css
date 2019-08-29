@@ -107,6 +107,34 @@
     float: right;
 }
 
+.review {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.review-caption {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.review-box {
+    width: 574px;
+    min-height: 75px;
+    
+}
+
+.review-box-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background-image: url("../img/face-1.jpg");
+    background-size: cover;
+    border: 1px solid black;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+
 .buy {
     width: 100%;
     padding: 50px;
