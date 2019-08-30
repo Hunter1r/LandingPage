@@ -106,6 +106,40 @@
     height: 245px;
     float: right;
 }
+.screenshots {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.screenshots-items {
+    list-style-type: none;
+    width: 574px;
+    margin: 0;
+    padding: 0;
+}
+.screenshots-box {
+    margin: 0 auto;
+    padding: 0;
+}
+/*
+.screenshots-box-text {
+    width: 359px;
+}
+*/
+.screenshots-items li:after {
+    content: "";
+    display: block;
+    width: 100px;
+    clear: both;
+}
+.screenshots-box-img{
+    float: left;
+    outline: 2px solid black;
+    margin:  0 15px 0 0;
+}
+
 
 .review {
     width: 100%;
