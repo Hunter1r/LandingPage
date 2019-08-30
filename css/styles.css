@@ -111,21 +111,37 @@
     width: 100%;
     padding: 50px;
     box-sizing: border-box;
+    background-color: #f5f5f5;
 }
+
+.review:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .review-caption {
     display: block;
-    margin: 0 auto;
+    margin: 0 0 35px 0;
     text-align: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
 }
+
 .review-box {
     width: 574px;
     min-height: 75px;
-    
+    float: left;
+    margin: 0 16px 24px 0;
+
+
 }
 
 .review-box-img {
-    width: 75px;
-    height: 75px;
+    min-width: 75px;
+    min-height: 75px;
     border-radius: 50px;
     background-image: url("../img/face-1.jpg");
     background-size: cover;
@@ -134,6 +150,53 @@
     margin: 0 20px 0 0;
 }
 
+.two {
+    background-image: url("../img/face-2.jpg");
+}
+
+.three {
+    background-image: url("../img/face-3.jpg");
+}
+
+.four {
+    background-image: url("../img/face-4.jpg");
+}
+
+.review-box-content {
+    width: 483px;
+    background-color: #ebebeb;
+    margin: 0px 0px 0px 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 16px;
+    position: relative;
+}
+
+.review-box-content:before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    bottom: 70px;
+    border: 15px solid transparent;
+    border-right: 15px solid #ebebeb;
+}
+
+
+.review-box-text {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: italic;
+}
+
+.review-box-text-autor {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    font-style: normal;
+}
 
 .buy {
     width: 100%;
@@ -157,6 +220,7 @@
     font-weight: 400;
     line-height: 36px;
 }
+
 .buy-box {
     width: 300px;
     background-color: #445162;
@@ -165,9 +229,11 @@
     color: white;
     margin: 0 20px 0 20px;
 }
+
 .buy-box:nth-child(2) {
     margin-left: 0;
 }
+
 .buy-box:nth-child(4) {
     margin-right: 0;
 }
@@ -184,9 +250,11 @@
     padding: 17px;
     box-sizing: border-box;
 }
+
 .buy-box-caption:first-letter {
     text-transform: uppercase;
 }
+
 .buy-box-price {
     display: block;
     width: 98%;
@@ -196,7 +264,7 @@
     padding: 18px;
     font-size: 35px;
     box-sizing: border-box;
-    outline: 1px solid #445162; 
+    outline: 1px solid #445162;
     margin: 0 auto;
 }
 
@@ -208,6 +276,7 @@
     font-weight: 400;
     line-height: 24px;
 }
+
 .buy-box-btn {
     display: block;
     width: 260px;
@@ -223,9 +292,11 @@
     margin: 0px auto 20px auto;
     outline: none;
 }
+
 .buy-box-btn:hover {
-    background-color:burlywood;
+    background-color: burlywood;
 }
+
 .buy-box-btn:active {
     color: white;
 }
