@@ -448,10 +448,12 @@
     background-color: #445161;
     box-sizing: border-box;
 }
+
 .contacts {
     display: flex;
     flex-wrap: wrap;
 }
+
 .contacts-caption {
     display: block;
     width: 100%;
@@ -474,80 +476,141 @@
 .contacts-form input[type="text"],
 .contacts-form input[type="email"],
 .contacts-form textarea {
-  width: 100%;
-  height: 40px;
-  margin: 0 0 20px 0;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid gray;
-  border-radius: 5px;
-  background-color:  #ffffff;
-  outline: none;
-  text-transform: capitalize;
+    width: 100%;
+    height: 40px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    text-transform: capitalize;
 }
+
 .contacts-form input[type="text"]:hover,
 .contacts-form input[type="email"]:hover,
 .contacts-form textarea:hover {
-  background-color: gray;
-  color: white;
-  border-color: white;
+    background-color: gray;
+    color: white;
+    border-color: white;
 }
 
 .contacts-form input[type="text"]:hover::placeholder,
 .contacts-form input[type="email"]:hover::placeholder,
 .contacts-form textarea:hover::placeholder {
-  color: white;
+    color: white;
 }
 
 .contacts-form textarea {
-  width: 500px;
-  height: 170px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  background-color:  #ffffff;
-  outline: none;
+    width: 500px;
+    height: 170px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
 }
 
 input[placeholder],
 textarea[placeholder] {
-  text-overflow:ellipsis;
-  font-family: Arial;
-  color:  #445162;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}  
+    text-overflow: ellipsis;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
 
 
 .contacts-form input[type="submit"] {
-  border-radius: 5px;
-  background-color:  #ffffff;
-  width: 140px;
-  height: 40px;
-  text-transform: uppercase;
-  font-family: Arial;
-  color:  #445162;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
-  text-align: center;
-  outline: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    outline: none;
 }
 
 .contacts-form input[type="submit"]:hover {
-  background-color: gray;
-  color: white;
+    background-color: gray;
+    color: white;
 }
 
 .contacts-form input[type="submit"]:active {
-  background-color:  #ffffff;
-  color:  #445162;
+    background-color: #ffffff;
+    color: #445162;
 }
 
 .contacts-data {
-  width: 240px;
-  height: 300px;
-  background-color: white;
+    width: 240px;
+    height: 300px;
+    /*  background-color: white;*/
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
+.contacts-data-skype,
+.contacts-data-icq,
+.contacts-data-email,
+.contacts-data-phone
+{
+    display: flex;
+}
+.contacts-data-skype:before {
+    content: '';
+    width: 24px;
+    height: 26px;
+    background-image: url(../img/skype_icon.png);
+    background-size: cover;
+    margin: 0 5px 18px 0;
+}
+.contacts-data-icq:before {
+    content: '';
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/icq_icon.png);
+    background-size: cover;
+    margin: 0 5px 18px 0;
+}
+.contacts-data-email:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    background-image: url(../img/email_icon.png);
+    background-size: cover;
+    margin: 0 5px 18px 0;
+}
+.contacts-data-phone:before {
+    content: '';
+    width: 24px;
+    height: 23px;
+    background-image: url(../img/phone_icon.png);
+    background-size: cover;
+    margin: 0 5px 30px 0;
+}
+.social-buttons {
+    width: 240px;
+    min-height: 42px;
+    background-image: url(../img/social_buttons.png);
+}
+
+.footer-down {
+    width: 1280px;
+    min-height: 26px;
+    background-color: #f5f5f5;
+    text-align: center;
+    color: #445162;
+    margin: 0 auto;
+    font-family: arial;
+    font-size: 14px;
+}
