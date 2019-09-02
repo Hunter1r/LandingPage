@@ -107,6 +107,68 @@
     float: right;
 }
 
+.dignity {
+    width: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+.dignity:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.dignity-caption {
+    display: block;
+    margin: 0 0 30px 0;
+    width: 100%;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.dignity-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.dignity-items-item:nth-last-child(-n+2){
+    margin: 0 23px 0 41px;
+}
+.dignity-items-item {
+    width: 526px;
+    position: relative;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 23px 35px 41px;
+    float: left;
+}
+.dignity-items-item:nth-child(2),
+.dignity-items-item:nth-child(4)
+{
+    margin: 0 0 35px 41px;
+}
+.dignity-items-item:nth-child(5){
+    margin: 0 23px 0 41px;
+}
+.dignity-items-item:nth-child(6) {
+    margin: 0 0 0 41px;
+}
+
+.dignity-items-item:before {
+    
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 4px;
+    left: -41px;
+    content: '';
+    background-image: url(../img/plus.png);
+}
+
 .screenshots {
     width: 100%;
     padding: 50px;
